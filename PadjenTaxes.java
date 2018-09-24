@@ -44,12 +44,17 @@ public class PadjenTaxes
 
     double marginalTaxes = salary * taxRate;
 
-    if (age > 0 || age < 15)
+    if (age > 0 || age <= 15)
     {
       double ageDiscount = 0.50;
     }
 
-    if ()
+    if (age > 15 || age <= 21)
+    {
+      double ageDiscount = 0.25;
+    }
+
+    if (age > 21 || <= )
 
   }
 }
